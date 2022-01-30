@@ -1,0 +1,12 @@
+[programs.localnet]
+fortune = "rTxHpHTgJ6ZeWgjAX9eEpS92Ei6SxD86rh1u55H6pWv"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/daniel/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
